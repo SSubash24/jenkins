@@ -17,6 +17,7 @@ public class UserAPITest {
     public void getUserDetails() {
         Response response = RestAssured
                 .given()
+                .header("x-api-key", "reqres-free-v1")  // Add API key header here
                 .when()
                 .get("/api/users/2");
 
