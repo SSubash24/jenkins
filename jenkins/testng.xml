@@ -3,7 +3,7 @@
     <test name="API Tests">
         <classes>
             <class name="jenkins.UserAPITest"/>
-            <class name="Users.BookingAPITest"/>
+            <class name="tests.BookingAPITest"/>
         </classes>
     </test>
 </suite>
