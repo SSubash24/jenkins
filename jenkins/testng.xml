@@ -2,7 +2,7 @@
 <suite name="API Test Suite">
     <test name="API Tests">
         <classes>
-            <class name="jenkins.UserAPITest"/>
+            <class name="tests.UserAPITest"/>
             <class name="tests.BookingAPITest"/>
         </classes>
     </test>
